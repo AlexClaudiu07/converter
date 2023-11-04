@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="menu-button">Menu</button>
+        <h1>Unit Converter</h1>
+    </header>
+    <aside id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#length-unit-conversion">Length</a></li>
+                <li><a href="#mass-conversion">Mass</a></li>
+                <li><a href="#temperature-conversion">Temperature</a></li>
+                <li><a href="#speed-conversion">Speed</a></li>
+                <li><a href="#volume-conversion">Volume</a></li>
+                <li><a href="#energy-conversion">Energy</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="container">
+        <!-- LENGTH CONVERSION -->
+        <section id="length-conversion">
+            <h2>Length Conversion</h2>
+            <label for="length-input">Enter Length:</label>
+            <input type="number" id="length-input">
+            <select id="from-length-unit">
+                <option value="mm">Millimeters (mm)</option>
+                <option value="cm">Centimeters (cm)</option>
+                <option value="m">Meters (m)</option>
+                <option value="km">Kilometers (km)</option>
+            </select>
+            <p>Converts to:</p>
+            <span id="converted-length"></span>
+            <select id="to-length-unit">
+                <option value="mm">Millimeters (mm)</option>
+                <option value="cm">Centimeters (cm)</option>
+                <option value="m">Meters (m)</option>
+                <option value="km">Kilometers (km)</option>
+            </select>
+        </section>
+
+        <!-- MASS CONVERSION -->
+        <section id="mass-conversion">
+            <h2>Mass Conversion</h2>
+            <label for="mass-input">Enter Mass:</label>
+            <input type="number" id="mass-input">
+            <select id="from-mass-unit">
+                <option value="g">Grams (g)</option>
+                <option value="kg">Kilograms (kg)</option>
+                <option value="mg">Milligrams (mg)</option>
+            </select>
+            <p>Converts to:</p>
+            <span id="converted-mass"></span>
+            <select id="to-mass-unit">
+                <option value="g">Grams (g)</option>
+                <option value="kg">Kilograms (kg)</option>
+                <option value="mg">Milligrams (mg)</option>
+            </select>
+        </section>
+
+        <!-- TEMPERATURE CONVERSION -->
+        <section id="temperature-conversion">
+            <h2>Temperature Conversion</h2>
+            <label for="temperature-input">Enter Temperature:</label>
+            <input type="number" id="temperature-input">
+            <select id="from-temperature-unit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select>
+            <p>Converts to:</p>
+            <span id="converted-temperature"></span>
+            <select id="to-temperature-unit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+            </select>
+        </section>
+
+        <!-- SPEED CONVERSION -->
+        <section id="speed-conversion">
+            <h2>Speed Conversion</h2>
+            <label for="speed-input">Enter Speed:</label>
+            <input type="number" id="speed-input">
+            <select id="from-speed-unit">
+                <option value="kmh">Kilometers per Hour (km/h)</option>
+                <option value="ms">Meters per Second (m/s)</option>
+            </select>
+            <p>Converts to:</p>
+            <span id="converted-speed"></span>
+            <select id="to-speed-unit">
+                <option value="kmh">Kilometers per Hour (km/h)</option>
+                <option value="ms">Meters per Second (m/s)</option>
+            </select>
+        </section>
+
+        <!-- VOLUME CONVERSION -->
+        <section id="volume-conversion">
+            <h2>Volume Conversion</h2>
+            <label for="volume-input">Enter Volume:</label>
+            <input type="number" id="volume-input">
+            <select id="from-volume-unit">
+                <option value="L">Liters (L)</option>
+                <option value="mL">Milliliters (mL)</option>
+            </select>
+            <p>Converts to:</p>
+            <span id="converted-volume"></span>
+            <select id="to-volume-unit">
+                <option value="L">Liters (L)</option>
+                <option value="mL">Milliliters (mL)</option>
+            </select>
+        </section>
+
+        <!-- ENERGY CONVERSION -->
+        <section id="energy-conversion">
+            <h2>Energy Conversion</h2>
+            <label for="energy-input">Enter Energy:</label>
+            <input type="number" id="energy-input">
+            <select id="from-energy-unit">
+                <option value="J">Joules (J)</option>
+                <option value="kJ">Kilojoules (kJ)</option>
+            </select>
+            <p>Converts to:</p>
+            <span id="converted-energy"></span>
+            <select id="to-energy-unit">
+                <option value="J">Joules (J)</option>
+                <option value="kJ">Kilojoules (kJ)</option>
+            </select>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

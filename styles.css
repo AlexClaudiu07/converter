@@ -1,0 +1,266 @@
+/* Stilizare generală */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1C376;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header cu meniu */
+header {
+    background-color: #606C5D;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #F7E6C4;
+}
+
+button#menu-button {
+    background: transparent;
+    border: none;
+    color: #F7E6C4;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+    font-size: 15px;
+    border-radius: 0px 0px 20px;
+}
+button#menu-button:hover {
+    background: #F7E6C4;
+    color: #606C5D;
+    transition: background 0.5s;
+    transition: color 0.5s;
+}
+
+/* Meniu lateral */
+aside#sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: left 0.3s;
+    z-index: 2;
+}
+
+aside#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside#sidebar ul li {
+    padding: 10px;
+}
+aside#sidebar ul li a {
+    text-decoration: none; /* Elimină sublinierea */
+    color: #F7E6C4; /* Schimbă culoarea textului la roșu (#FF0000) */
+    background-color: #333;
+}
+aside#sidebar ul li a:hover{
+    background-color: #606C5D;
+    transition: background 0.5s;
+}
+
+
+/* LENGHT CONVERSION */
+section#length-conversion {
+    background-color: #F7E6C4;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+section#lenght-conversion, h2{
+    color: #606C5D;
+}
+section#lenght-conversion, input{
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    right: 10px;
+}
+section#lenght-conversion, select{
+    border-radius: 20px;
+    border: 0px;
+}
+section#lenght-conversion, p{
+    color: #606C5D;
+}
+section#lenght-conversion, label{
+    color: #606C5D;
+}
+
+/* MASS CONVERSION */
+section#mass-conversion {
+    background-color: #F7E6C4;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+section#mass-conversion, h2{
+    color: #606C5D;
+}
+section#mass-conversion, input{
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    right: 10px;
+}
+section#mass-conversion, select{
+    border-radius: 20px;
+    border: 0px;
+}
+section#mass-conversion, p{
+    color: #606C5D;
+}
+section#mass-conversion, label{
+    color: #606C5D;
+}
+
+/* TEMPERATURE CONVERSION */
+section#temperature-conversion {
+    background-color: #F7E6C4;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+section#temperature-conversion, h2{
+    color: #606C5D;
+}
+section#temperature-conversion, input{
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    right: 10px;
+}
+section#temperature-conversion, select{
+    border-radius: 20px;
+    border: 0px;
+}
+section#temperature-conversion, p{
+    color: #606C5D;
+}
+section#temperature-conversion, label{
+    color: #606C5D;
+}
+
+/* SPEED CONVERSION */
+section#speed-conversion {
+    background-color: #F7E6C4;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+section#speed-conversion, h2{
+    color: #606C5D;
+}
+section#speed-conversion, input{
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    right: 10px;
+}
+section#speed-conversion, select{
+    border-radius: 20px;
+    border: 0px;
+}
+section#speed-conversion, p{
+    color: #606C5D;
+}
+section#speed-conversion, label{
+    color: #606C5D;
+}
+
+/* VOLUME CONVERSION */
+section#volume-conversion {
+    background-color: #F7E6C4;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+section#volume-conversion, h2{
+    color: #606C5D;
+}
+section#volume-conversion, input{
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    right: 10px;
+}
+section#volume-conversion, select{
+    border-radius: 20px;
+    border: 0px;
+}
+section#volume-conversion, p{
+    color: #606C5D;
+}
+section#volume-conversion, label{
+    color: #606C5D;
+}
+
+/* ENERGY CONVERSION */
+section#energy-conversion {
+    background-color: #F7E6C4;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+section#energy-conversion, h2{
+    color: #606C5D;
+}
+section#energy-conversion, input{
+    border-radius: 20px;
+    border: 0px;
+    position: relative;
+    right: 10px;
+}
+section#energy-conversion, select{
+    border-radius: 20px;
+    border: 0px;
+}
+section#energy-conversion, p{
+    color: #606C5D;
+}
+section#energy-conversion, label{
+    color: #606C5D;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+span#converted-length {
+    font-size: 24px;
+}
+
+section {
+    display: none; /* Ascunde toate secțiunile */
+}
